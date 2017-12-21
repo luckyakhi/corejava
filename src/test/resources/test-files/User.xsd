@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<xs:schema version="1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <xs:element name="user" type="user"/>
+
+  <xs:complexType name="user">
+    <xs:sequence>
+      <xs:element name="dob" type="xs:dateTime" minOccurs="0"/>
+      <xs:element name="email" type="xs:string" minOccurs="0"/>
+      <xs:element name="firstName" type="xs:string" minOccurs="0"/>
+      <xs:element name="lastName" type="xs:string" minOccurs="0"/>
+      <xs:element name="middleName" type="xs:string" minOccurs="1"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>
+
