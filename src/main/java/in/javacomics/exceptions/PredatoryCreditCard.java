@@ -12,7 +12,7 @@ public class PredatoryCreditCard extends CreditCard{
 
 	//Runtime exception can be thrown in an overloaded method
 	@Override
-	public BigDecimal getUnbilledAmount() throws RuntimeException {
+	public BigDecimal getUnbilledAmount() throws CreditCardServerDownException {
 		//TODO implementation pending
 		return null;
 	}
