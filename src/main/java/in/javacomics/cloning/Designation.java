@@ -1,6 +1,6 @@
 package in.javacomics.cloning;
 
-public class Designation {
+public class Designation implements Cloneable{
 	private String value;
 
 	public String getValue() {
@@ -14,6 +14,11 @@ public class Designation {
 	public Designation(String value) {
 		super();
 		this.value = value;
+	}
+
+	@Override
+	protected Object clone() throws CloneNotSupportedException {
+		return super.clone();
 	}
 
 	@Override

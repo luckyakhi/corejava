@@ -1,4 +1,4 @@
-package in.javacomics.core;
+package in.javacomics.innerclass;
 
 public class OuterClassDemo {
 
